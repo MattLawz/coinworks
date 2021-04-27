@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Heading, Stack, Center, Text, Button } from '@chakra-ui/react'
-import Nav from '../components/Nav'
+import Container from '../components/Container'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import Link from 'next/link'
 
@@ -22,7 +22,8 @@ export default function Home() {
       <meta name="og:image" content="/btc.svg" />
       <meta name="theme-color" content="#f2a900" />
 </Head>
-<Nav />
+
+<Container />
 <Center>
 <Stack spacing={8}>
 <Heading>Custom Bitcoin Donation Pages</Heading>

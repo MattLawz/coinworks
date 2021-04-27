@@ -2310,11 +2310,6 @@ postcss@^7.0.32:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-prism-themes@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.6.0.tgz#3bdb4f0780588a4abd770f70537e5cc4898198d1"
-  integrity sha512-L7pbxbUvFj8bVIWpcHCwDFOykhozk6Dja9sxqdcFCWwUI77tSFsWE7imf9OQQAmezLNLaBxRlXNcD2k0VCE/0w==
-
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"

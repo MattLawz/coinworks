@@ -1,4 +1,3 @@
-  
 import React from 'react'
 import {
     useColorMode,
@@ -8,7 +7,6 @@ import {
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import styled from '@emotion/styled'
-
 import DarkModeSwitch from './DarkModeSwitch'
 
 const Nav = ({ children }) => {
@@ -93,4 +91,4 @@ const Nav = ({ children }) => {
     )
 }
 
-export default Nav
+export default Container

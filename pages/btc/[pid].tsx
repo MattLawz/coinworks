@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Code , Stack, Center, Heading, Tooltip, Image } from "@chakra-ui/react"
-import Nav from '../../components/Nav'
+import Container from '../../components/Container'
 
 const btc = () => {
   const router = useRouter()
@@ -24,7 +24,7 @@ const btc = () => {
       />
       <meta name="og:image" content="/btc.svg" />
   </Head>
-  <Nav />
+  <Container />
   <Center>
 <Stack spacing={8}>
     <Heading>Donate Bitcoin To</Heading>
