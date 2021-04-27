@@ -20,7 +20,6 @@ export default function Home() {
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
             </Head>
-            <Container></Container>
             <Center>
                 <Stack spacing={8}>
                     <Heading>Custom Bitcoin Donation Pages</Heading>
