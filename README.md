@@ -28,7 +28,7 @@ First, you want to receive your Bitcoin Address
 Then, you want to follow the format below:
 
 ```
-https://donatebtc.netlify.app/btc/yourbitcoinaddress
+https://donatebtc.vercel.app/btc/yourbitcoinaddress
 ```
 Then Boom! You now have your own page!
 
