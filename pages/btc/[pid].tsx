@@ -22,7 +22,7 @@ const btc = () => {
                 <meta name="og:description" content={"Donate BTC To" + pid} />
                 <meta name="og:image" content="/btc.svg" />
             </Head>
-            <Container></Container>
+            <Container />
             <Center>
                 <Stack spacing={8}>
                     <Heading>Donate Bitcoin To</Heading>
