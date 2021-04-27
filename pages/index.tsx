@@ -11,12 +11,18 @@ export default function Home() {
                 <title>Donate BTC</title>
                 <link rel="icon" href="/btc.svg" />
                 <meta name="og:type" content="website" />
-                <meta name="description" content="Custom Donate BTC Page" />
+                <meta
+                    name="description"
+                    content="Custom Bitcoin Donation Page"
+                />
                 <meta
                     name="keywords"
                     content="donate bitcoin, coinbase, donation"
                 />
-                <meta name="og:description" content="Custom Donate BTC Page" />
+                <meta
+                    name="og:description"
+                    content="Custom Bitcoin Donation Page"
+                />
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
             </Head>
