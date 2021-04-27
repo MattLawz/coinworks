@@ -1,19 +1,19 @@
-import { theme as chakraTheme } from '@chakra-ui/react'
-import { extendTheme } from "@chakra-ui/react"
-import { createBreakpoints } from "@chakra-ui/theme-tools"
+import { theme as chakraTheme } from "@chakra-ui/react";
+import { extendTheme } from "@chakra-ui/react";
+import { createBreakpoints } from "@chakra-ui/theme-tools";
 
 const fonts = {
     ...chakraTheme.fonts,
     body: `Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"`,
-    heading: `Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"`
-}
+    heading: `Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"`,
+};
 
 const breakpoints = createBreakpoints({
     sm: "40em",
     md: "52em",
     lg: "64em",
     lg: "62em",
-})
+});
 
 const overrides = {
     ...chakraTheme,
@@ -22,7 +22,7 @@ const overrides = {
     fontWeights: {
         normal: 300,
         medium: 600,
-        bold: 700
+        bold: 700,
     },
     fontSizes: {
         xs: "12px",
@@ -36,8 +36,8 @@ const overrides = {
         "5xl": "48px",
         "6xl": "64px",
     },
-}
+};
 
-const customTheme = extendTheme(overrides)
+const customTheme = extendTheme(overrides);
 
-export default customTheme
+export default customTheme;
