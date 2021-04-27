@@ -24,10 +24,7 @@ export default function Home() {
             <Center>
                 <Stack spacing={8}>
                     <Heading>Custom Bitcoin Donation Pages</Heading>
-                    <Text>
-                        There is no registration or logins, it is meant to be
-                        easy, fast, and loaded with features.
-                    </Text>
+                    <Text>No registrations. Easy. Fast.</Text>
                     <Link href="https://app.archbee.io/doc/9vcLAEz22e8v64S5Y2Ck3/78sRUU71EiCZ4NHolJYqN">
                         <a target="_blank" rel="noreferer">
                             <Button
