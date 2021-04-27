@@ -7,9 +7,10 @@ import {
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import styled from '@emotion/styled'
-import DarkModeSwitch from './DarkModeSwitch'
 
-const Nav = ({ children }) => {
+import DarkModeSwitch from '../components/DarkModeSwitch'
+
+const Container = ({ children }) => {
     const { colorMode } = useColorMode()
 
     const bgColor = {
@@ -53,7 +54,7 @@ const Nav = ({ children }) => {
                 mx="auto"
             >
                 <Box>
-                    <NextLink href="https://donatebtc.vercel.app" passHref>
+                <NextLink href="https://donatebtc.vercel.app" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Home
                         </Button>
