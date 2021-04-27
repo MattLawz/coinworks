@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Code, Stack, Center, Heading, Tooltip, Image } from "@chakra-ui/react";
 import Container from "../../components/Container";
 
-const btc = () => {
+export default function btc() {
     const router = useRouter();
     const { pid } = router.query;
 
@@ -52,6 +52,4 @@ const btc = () => {
             </Center>
         </>
     );
-};
-
-export default btc;
+}
