@@ -54,7 +54,7 @@ const Container = ({ children }) => {
                 mx="auto"
             >
                 <Box>
-                <NextLink href="https://donatebtc.netlify.app" passHref>
+                <NextLink href="https://donatebtc.vercel.app" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             Home
                         </Button>
