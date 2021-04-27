@@ -50,7 +50,7 @@ const Container = ({ children }: ContainerProps) => {
                 mx="auto"
             >
                 <Box>
-                    <NextLink href="https://donatebtc.netlify.app" passHref>
+                    <NextLink href="https://donatebtc.vercel.app" passHref>
                         <Button
                             as="a"
                             variant="ghost"
