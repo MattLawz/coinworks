@@ -53,6 +53,28 @@ export default function Home() {
                             </Button>
                         </a>
                     </Link>
+                    <Link href="/btc/3GvF36KrDFRCPunvZzCeaMVMJtkBcMjNJi">
+                        <a rel="noreferer">
+                            <Button
+                                rightIcon={<ArrowForwardIcon />}
+                                colorScheme="teal"
+                                variant="outline"
+                            >
+                                Working Example
+                            </Button>
+                        </a>
+                    </Link>
+                    <Link href="/btc/totallyNOTworkingexample">
+                        <a rel="noreferer">
+                            <Button
+                                rightIcon={<ArrowForwardIcon />}
+                                colorScheme="teal"
+                                variant="outline"
+                            >
+                                Broken Example
+                            </Button>
+                        </a>
+                    </Link>
                 </Stack>
             </Center>
         </>
