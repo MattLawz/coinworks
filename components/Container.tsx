@@ -51,7 +51,6 @@ const Container = ({ children }: ContainerProps) => {
                 mx="auto"
             >
                 <Box>
-
                     <Link href="https://donatebtc.netlify.app" passHref>
                         <Button
                             as="a"
@@ -86,19 +85,6 @@ const Container = ({ children }: ContainerProps) => {
                             _hover={{ backgroundColor: navHoverBg[colorMode] }}
                         >
                             Why Us
-                        </Button>
-                    </Link>
-                    <Link
-                        href="https://github.com/MattLawz/bitcoin-donate"
-                        passHref
-                    >
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            p={[1, 2, 4]}
-                            _hover={{ backgroundColor: navHoverBg[colorMode] }}
-                        >
-                            GitHub
                         </Button>
                     </Link>
                 </Box>
