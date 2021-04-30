@@ -31,7 +31,7 @@ export default function Home() {
                 <Stack spacing={8}>
                     <Heading>Custom Bitcoin Donation Pages</Heading>
                     <Text>No registrations. Easy. Fast.</Text>
-                    <Link href="https://app.archbee.io/doc/9vcLAEz22e8v64S5Y2Ck3/78sRUU71EiCZ4NHolJYqN">
+                    <Link href="https://donatebtc.vercel.app/docs">
                         <a target="_blank" rel="noreferer">
                             <Button
                                 rightIcon={<ArrowForwardIcon />}
@@ -39,17 +39,6 @@ export default function Home() {
                                 variant="outline"
                             >
                                 Get Started
-                            </Button>
-                        </a>
-                    </Link>
-                    <Link href="https://app.archbee.io/doc/ByB0SITocaEpKZ1Y6QzTf/JLZfnLzWITtp3tqRXEOaK">
-                        <a target="_blank" rel="noreferer">
-                            <Button
-                                rightIcon={<ArrowForwardIcon />}
-                                colorScheme="teal"
-                                variant="outline"
-                            >
-                                Learn More
                             </Button>
                         </a>
                     </Link>

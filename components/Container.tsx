@@ -63,7 +63,7 @@ const Container = ({ children }: ContainerProps) => {
                         </Button>
                     </Link>
                     <Link
-                        href="https://app.archbee.io/doc/9vcLAEz22e8v64S5Y2Ck3/78sRUU71EiCZ4NHolJYqN"
+                        href="https://donatebtc.vercel.app/docs"
                         passHref
                     >
                         <Button
@@ -76,7 +76,7 @@ const Container = ({ children }: ContainerProps) => {
                         </Button>
                     </Link>
                     <Link
-                        href="https://app.archbee.io/doc/ByB0SITocaEpKZ1Y6QzTf/JLZfnLzWITtp3tqRXEOaK"
+                        href="https://donatebtc.vercel.app/docs"
                         passHref
                     >
                         <Button
