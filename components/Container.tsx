@@ -1,6 +1,6 @@
 import React from "react";
 import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
-import NextLink from "next/link";
+import Link from "next/link";
 import styled from "@emotion/styled";
 import { ContainerProps } from "../interfaces";
 
@@ -50,7 +50,7 @@ const Container = ({ children }: ContainerProps) => {
                 mx="auto"
             >
                 <Box>
-                    <NextLink href="https://donatebtc.netlify.app" passHref>
+                    <Link href="https://donatebtc.netlify.app" passHref>
                         <Button
                             as="a"
                             variant="ghost"
@@ -59,8 +59,8 @@ const Container = ({ children }: ContainerProps) => {
                         >
                             Home
                         </Button>
-                    </NextLink>
-                    <NextLink
+                    </Link>
+                    <Link
                         href="https://app.archbee.io/doc/9vcLAEz22e8v64S5Y2Ck3/78sRUU71EiCZ4NHolJYqN"
                         passHref
                     >
@@ -72,8 +72,8 @@ const Container = ({ children }: ContainerProps) => {
                         >
                             Documentation
                         </Button>
-                    </NextLink>
-                    <NextLink
+                    </Link>
+                    <Link
                         href="https://app.archbee.io/doc/ByB0SITocaEpKZ1Y6QzTf/JLZfnLzWITtp3tqRXEOaK"
                         passHref
                     >
@@ -85,8 +85,8 @@ const Container = ({ children }: ContainerProps) => {
                         >
                             Why Us
                         </Button>
-                    </NextLink>
-                    <NextLink
+                    </Link>
+                    <Link
                         href="https://github.com/MattLawz/bitcoin-donate"
                         passHref
                     >
@@ -98,7 +98,7 @@ const Container = ({ children }: ContainerProps) => {
                         >
                             GitHub
                         </Button>
-                    </NextLink>
+                    </Link>
                 </Box>
                 <DarkModeSwitch />
             </StickyNav>
