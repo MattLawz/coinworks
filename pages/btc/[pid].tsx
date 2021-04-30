@@ -43,10 +43,7 @@ export default function btc() {
                                 <Image
                                     boxSize="150px"
                                     objectFit="cover"
-                                    src={
-                                        "https://apimon.de/qr/L/bitcoin%3A" +
-                                        pid
-                                    }
+                                    src={"https://apimon.de/qr/L/bitcoin%3A" + pid}
                                     alt="QRCode"
                                 />
                             </Tooltip>
