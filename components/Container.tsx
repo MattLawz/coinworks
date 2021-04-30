@@ -51,7 +51,7 @@ const Container = ({ children }: ContainerProps) => {
                 mx="auto"
             >
                 <Box>
-                    <Link href="https://donatebtc.netlify.app" passHref>
+                    <Link href="/" passHref>
                         <Button
                             as="a"
                             variant="ghost"
