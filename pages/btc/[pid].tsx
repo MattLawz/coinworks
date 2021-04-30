@@ -13,8 +13,7 @@ import {
 import Container from "../../components/Container";
 import Copy from "../../components/Copy";
 import cryptaddress from "cryptaddress-validator";
-import { WarningIcon, WarningTwoIcon } from "@chakra-ui/icons";
-import { AiFillWarning, AiOutlineWarning } from "react-icons/ai";
+import { WarningTwoIcon } from "@chakra-ui/icons";
 
 export default function btc() {
     const router = useRouter();
