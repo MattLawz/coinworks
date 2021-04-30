@@ -5,6 +5,7 @@ import styled from "@emotion/styled";
 import { ContainerProps } from "../interfaces";
 
 import DarkModeSwitch from "../components/DarkModeSwitch";
+import GitHubIcon from "../components/GitHubIcon";
 
 const Container = ({ children }: ContainerProps) => {
     const { colorMode } = useColorMode();
@@ -100,7 +101,13 @@ const Container = ({ children }: ContainerProps) => {
                         </Button>
                     </Link>
                 </Box>
-                <DarkModeSwitch />
+                <div>
+                    <p>
+                        <DarkModeSwitch />
+                             
+                        <GitHubIcon />
+                    </p>
+                </div>
             </StickyNav>
             <Flex
                 as="main"
