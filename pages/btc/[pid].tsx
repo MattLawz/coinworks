@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Code, Stack, Center, Heading, Tooltip, Image } from "@chakra-ui/react";
 import Container from "../../components/Container";
+import Copy from "../../components/Copy";
 
 export default function btc() {
     const router = useRouter();
@@ -27,7 +28,10 @@ export default function btc() {
                 <Stack spacing={8}>
                     <Heading>Donate Bitcoin To</Heading>
                     <Code>{pid}</Code>
-
+                    {
+                        // @ts-ignore
+                        <Copy btc={pid} />
+                    }
                     <Link
                         href={"https://www.blockchain.com/btc/address/" + pid}
                     >
