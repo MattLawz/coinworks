@@ -42,11 +42,11 @@ Then Boom! You now have your own page!
 
 ### Resources Used
 
-[NextJs](https://nextjs.org/)
+[Next.js](https://nextjs.org/)
 
 [TypeScript](https://www.typescriptlang.org/)
 
-[Chakra-UI](https://chakra-ui.com/)
+[chakara-ui](https://chakra-ui.com/)
 
 [Apimon](https://apimon.de/http-apis#qr)
 
