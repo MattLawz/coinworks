@@ -14,6 +14,7 @@
         "@emotion/styled": "11",
         "@swyftx/api-crypto-address-validator": "^1.13.1",
         "copy-to-clipboard": "^3.3.1",
+        "cryptaddress-validator": "^1.1.1",
         "framer-motion": "4",
         "next": "10.2.0",
         "react": "17.0.2",
