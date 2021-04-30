@@ -1,0 +1,27 @@
+{
+    "name": "donate",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^1.0.12",
+        "@chakra-ui/react": "^1.6.0",
+        "@emotion/react": "11",
+        "@emotion/styled": "11",
+        "@swyftx/api-crypto-address-validator": "^1.13.1",
+        "copy-to-clipboard": "^3.3.1",
+        "cryptaddress-validator": "^1.1.1",
+        "framer-motion": "4",
+        "next": "10.2.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "^4.2.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    }
+}
