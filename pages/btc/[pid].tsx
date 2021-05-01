@@ -1,11 +1,20 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
-import { Code, Stack, Center, Heading, Tooltip, Image } from "@chakra-ui/react";
+import {
+    Code,
+    Stack,
+    Center,
+    Heading,
+    Tooltip,
+    Image,
+    Alert,
+    AlertIcon,
+    AlertTitle,
+} from "@chakra-ui/react";
 import Container from "../../components/Container";
 import Copy from "../../components/Copy";
 import cryptaddress from "cryptaddress-validator";
-import { Alert, AlertIcon, AlertTitle, CloseButton } from "@chakra-ui/react";
 
 export default function btc() {
     const router = useRouter();
@@ -37,11 +46,6 @@ export default function btc() {
                             <AlertTitle mr={7}>
                                 This address might be invalid.
                             </AlertTitle>
-                            <CloseButton
-                                position="absolute"
-                                right="8px"
-                                top="8px"
-                            />
                         </Alert>
                     )}
                     {
