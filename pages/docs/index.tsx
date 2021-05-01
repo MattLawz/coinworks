@@ -41,7 +41,7 @@ export default function Docs() {
                 <Stack spacing={8}>
                     <Heading>Documentation</Heading>
 
-                    <Text fontSize="4xl">Why Us?</Text>
+                    <Text fontSize="4xl">Why us?</Text>
                     <UnorderedList spacing={1}>
                         <ListItem>
                             There is no registration or logins, it is meant to
@@ -63,26 +63,18 @@ export default function Docs() {
                         <ListItem>No Advertisements period</ListItem>
                         <ListItem>Fast and up 24/7</ListItem>
                         <ListItem>
-                            {" "}
-                            <Link
-                                color="teal"
-                                href="https://github.com/MattLawz/bitcoin-donate"
-                            >
+                            <Link href="https://github.com/MattLawz/bitcoin-donate">
                                 Open Source{" "}
                             </Link>
                         </ListItem>
                     </UnorderedList>
 
                     <Text fontSize="4xl" id="help">
-                        How To Use Bitcoin Donate?
+                        How to use?
                     </Text>
                     <List>
-                        <ListItem>
-                            First, you want to receive your Bitcoin Address
-                        </ListItem>
-                        <ListItem>
-                            Then, you want to follow the format below:
-                        </ListItem>
+                        <ListItem>Firstly, get your Bitcoin address.</ListItem>
+                        <ListItem>Then, you follow the format below:</ListItem>
                     </List>
                     <Code>https://donatebtc.vercel.app/btc/yourbtcaddress</Code>
                     {
