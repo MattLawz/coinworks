@@ -23,7 +23,6 @@ export default function error() {
                     <Spacer />
                     <Spacer />
                     <Spacer />
-                    <Heading>Hello, emptyness.</Heading>
                     <Heading>Welcome to the void.</Heading>
                     <Link href="https://donatebtc.vercel.app">
                         <Button colorScheme="teal" variant="ghost">
