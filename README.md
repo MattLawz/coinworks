@@ -40,7 +40,11 @@ Then, follow the format below:
 https://donatebtc.vercel.app/btc/yourbitcoinaddress
 ```
 
-Then Boom! You now have your own page!
+Boom! You now have your own page!
+
+### Privacy Policy
+
+Please see [this file](privacy-policy.md).
 
 ---
 
