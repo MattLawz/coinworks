@@ -77,8 +77,24 @@ export default function Docs() {
                         How to use?
                     </Text>
                     <List>
-                        <ListItem>Firstly, get your Bitcoin address.</ListItem>
-                        <ListItem>Then, you follow the format below:</ListItem>
+                        <ListItem>
+                            Use our{" "}
+                            <Link color="lightblue" href="/create">
+                                link generator
+                            </Link>
+                            .
+                            <br />
+                            <br />
+                        </ListItem>
+                        <Text fontSize="3xl" id="help">
+                            Alternatively:
+                        </Text>
+                        <List>
+                            <ListItem>
+                                Firstly, get your Bitcoin address.
+                            </ListItem>
+                            <ListItem>Then, follow the format below:</ListItem>
+                        </List>
                     </List>
                     <Code>https://donatebtc.vercel.app/btc/yourbtcaddress</Code>
                     {
