@@ -9,3 +9,10 @@ export interface CopyProps {
 export interface CopyState {
     text: string;
 }
+
+export interface CreateProps {}
+
+export interface CreateState {
+    output: string;
+    text: string;
+}
