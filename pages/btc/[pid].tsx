@@ -43,7 +43,7 @@ export default function btc() {
                     {valid ? null : (
                         <Alert status="error">
                             <AlertIcon />
-                            <AlertTitle mr={5}>
+                            <AlertTitle textAlign="center" mr={5}>
                                 This address might be invalid.
                             </AlertTitle>
                         </Alert>
