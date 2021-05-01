@@ -11,7 +11,6 @@ import {
     Code,
 } from "@chakra-ui/react";
 import Container from "../../components/Container";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Copy from "../../components/Copy";
 
 export default function Docs() {
@@ -63,8 +62,11 @@ export default function Docs() {
                         <ListItem>No Advertisements period</ListItem>
                         <ListItem>Fast and up 24/7</ListItem>
                         <ListItem>
-                            <Link href="https://github.com/MattLawz/bitcoin-donate">
-                                Open Source{" "}
+                            <Link
+                                color="lightblue"
+                                href="https://github.com/MattLawz/bitcoin-donate"
+                            >
+                                Open-source{" "}
                             </Link>
                         </ListItem>
                     </UnorderedList>
