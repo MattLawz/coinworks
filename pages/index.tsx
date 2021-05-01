@@ -32,7 +32,7 @@ export default function Home() {
                     <Heading>Custom Bitcoin Donation Pages</Heading>
                     <Text>No registrations. Easy. Fast.</Text>
                     <Link href="/create">
-                        <a target="_blank" rel="noreferer">
+                        <a>
                             <Button
                                 rightIcon={<ArrowForwardIcon />}
                                 colorScheme="teal"
