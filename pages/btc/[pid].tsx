@@ -52,26 +52,30 @@ export default function btc() {
                         // @ts-ignore
                         <Copy btc={pid} />
                     }
-                    <Link
-                        href={"https://www.blockchain.com/btc/address/" + pid}
-                    >
-                        <a target="_blank" rel="noreferer">
-                            <Tooltip
-                                label="Click for Blockchain Explorer"
-                                fontSize="md"
-                            >
-                                <Image
-                                    boxSize="150px"
-                                    objectFit="cover"
-                                    src={
-                                        "https://apimon.de/qr/L/bitcoin%3A" +
-                                        pid
-                                    }
-                                    alt="QRCode"
-                                />
-                            </Tooltip>
-                        </a>
-                    </Link>
+                    <Center>
+                        <Link
+                            href={
+                                "https://www.blockchain.com/btc/address/" + pid
+                            }
+                        >
+                            <a target="_blank" rel="noreferer">
+                                <Tooltip
+                                    label="Click for Blockchain Explorer"
+                                    fontSize="md"
+                                >
+                                    <Image
+                                        boxSize="150px"
+                                        objectFit="cover"
+                                        src={
+                                            "https://apimon.de/qr/L/bitcoin%3A" +
+                                            pid
+                                        }
+                                        alt="QRCode"
+                                    />
+                                </Tooltip>
+                            </a>
+                        </Link>
+                    </Center>
                 </Stack>
             </Center>
         </>
