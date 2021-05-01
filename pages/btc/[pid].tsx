@@ -9,7 +9,6 @@ import {
     Tooltip,
     Image,
     Text,
-    
 } from "@chakra-ui/react";
 import Container from "../../components/Container";
 import Copy from "../../components/Copy";

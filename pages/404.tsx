@@ -1,11 +1,18 @@
 import Head from "next/head";
-import { Heading, Stack, Center, Button, Skeleton, Spacer } from "@chakra-ui/react";
-import Link from "next/link"
+import {
+    Heading,
+    Stack,
+    Center,
+    Button,
+    Skeleton,
+    Spacer,
+} from "@chakra-ui/react";
+import Link from "next/link";
 
 export default function error() {
     return (
         <>
-              <Head>
+            <Head>
                 <title>404 Error</title>
                 <link rel="icon" href="/btc.svg" />
             </Head>
@@ -19,7 +26,9 @@ export default function error() {
                     <Heading>404 Error</Heading>
                     <Heading>Seems Like You Are Lost...</Heading>
                     <Link href="https://donatebtc.vercel.app">
-                    <Button colorScheme="teal" variant="ghost">Go Home</Button>
+                        <Button colorScheme="teal" variant="ghost">
+                            Go Home
+                        </Button>
                     </Link>
                     <Skeleton height="20px" />
                     <Skeleton height="20px" />

@@ -34,7 +34,6 @@ const Container = ({ children }: ContainerProps) => {
     `;
 
     return (
-        
         <>
             <StickyNav
                 flexDirection="row"
@@ -62,10 +61,7 @@ const Container = ({ children }: ContainerProps) => {
                             Home
                         </Button>
                     </Link>
-                    <Link
-                        href="https://donatebtc.vercel.app/docs"
-                        passHref
-                    >
+                    <Link href="https://donatebtc.vercel.app/docs" passHref>
                         <Button
                             as="a"
                             variant="ghost"
@@ -75,10 +71,7 @@ const Container = ({ children }: ContainerProps) => {
                             Documentation
                         </Button>
                     </Link>
-                    <Link
-                        href="https://donatebtc.vercel.app/docs"
-                        passHref
-                    >
+                    <Link href="https://donatebtc.vercel.app/docs" passHref>
                         <Button
                             as="a"
                             variant="ghost"
