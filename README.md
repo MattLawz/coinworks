@@ -46,7 +46,7 @@ Then Boom! You now have your own page!
 
 [TypeScript](https://www.typescriptlang.org/)
 
-[chakara-ui](https://chakra-ui.com/)
+[Chakra-UI](https://chakra-ui.com/)
 
 [Apimon](https://apimon.de/http-apis#qr)
 
