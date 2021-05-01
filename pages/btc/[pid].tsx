@@ -1,19 +1,11 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
-import {
-    Code,
-    Stack,
-    Center,
-    Heading,
-    Tooltip,
-    Image,
-    Text,
-} from "@chakra-ui/react";
+import { Code, Stack, Center, Heading, Tooltip, Image } from "@chakra-ui/react";
 import Container from "../../components/Container";
 import Copy from "../../components/Copy";
 import cryptaddress from "cryptaddress-validator";
-import { WarningTwoIcon } from "@chakra-ui/icons";
+import { Alert, AlertIcon, AlertTitle, CloseButton } from "@chakra-ui/react";
 
 export default function btc() {
     const router = useRouter();
@@ -40,9 +32,17 @@ export default function btc() {
                     <Heading>Donate Bitcoin To</Heading>
                     <Code>{pid}</Code>
                     {valid ? null : (
-                        <Text align="center" color="pink">
-                            <WarningTwoIcon /> This address might not be valid.
-                        </Text>
+                        <Alert status="error">
+                            <AlertIcon />
+                            <AlertTitle mr={7}>
+                                This address might be invalid.
+                            </AlertTitle>
+                            <CloseButton
+                                position="absolute"
+                                right="8px"
+                                top="8px"
+                            />
+                        </Alert>
                     )}
                     {
                         // @ts-ignore
