@@ -1,6 +1,6 @@
 ## Running locally in development mode
 
-To get started, just clone the repository and run `yarn`:
+To get started, just clone the repository and run yarn:
 
 `
 git clone https://github.com/MattLawz/bitcoin-donate.git
