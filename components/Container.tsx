@@ -61,7 +61,7 @@ const Container = ({ children }: ContainerProps) => {
                             Home
                         </Button>
                     </Link>
-                    <Link href="https://donatebtc.vercel.app/docs" passHref>
+                    <Link href="h/docs" passHref>
                         <Button
                             as="a"
                             variant="ghost"
@@ -71,7 +71,7 @@ const Container = ({ children }: ContainerProps) => {
                             Documentation
                         </Button>
                     </Link>
-                    <Link href="https://donatebtc.vercel.app/docs" passHref>
+                    <Link href="/docs" passHref>
                         <Button
                             as="a"
                             variant="ghost"
