@@ -26,11 +26,15 @@ There is no registration or logins, it is meant to be easy, fast, and loaded wit
 
 ### How Do I Use Bitcoin Donation Pages?
 
-It's very simple and is fast.
+It's very simple and fast.
 
-First, you want to receive your Bitcoin Address
+Generate your link [here](https://donatebtc.vercel.app/create).
 
-Then, you want to follow the format below:
+**Alternative Method**:
+
+Firstly, receive your Bitcoin Address
+
+Then, follow the format below:
 
 ```
 https://donatebtc.vercel.app/btc/yourbitcoinaddress
