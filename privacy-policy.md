@@ -30,7 +30,7 @@ The security of your personal information is important to us, but remember that 
 
 This Privacy Policy is effective as of 5-1-2021 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
 
-We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If We make any material changes to this Privacy Policy, we will notify you either through the email address you have provided [["us" or "me"]], or by placing a prominent notice on our website.
+We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If We make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
 
 
 ## Contact Information
