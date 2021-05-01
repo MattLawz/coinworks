@@ -40,7 +40,9 @@ export default function Docs() {
                 <Stack spacing={8}>
                     <Heading>Documentation</Heading>
 
-                    <Text fontSize="4xl">Why us?</Text>
+                    <Text id="why" fontSize="4xl">
+                        Why us?
+                    </Text>
                     <UnorderedList spacing={1}>
                         <ListItem>
                             There is no registration or logins, it is meant to

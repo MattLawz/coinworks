@@ -31,7 +31,7 @@ export default function Home() {
                 <Stack spacing={8}>
                     <Heading>Custom Bitcoin Donation Pages</Heading>
                     <Text>No registrations. Easy. Fast.</Text>
-                    <Link href="https://donatebtc.vercel.app/docs">
+                    <Link href="/create">
                         <a target="_blank" rel="noreferer">
                             <Button
                                 rightIcon={<ArrowForwardIcon />}
@@ -49,18 +49,7 @@ export default function Home() {
                                 colorScheme="teal"
                                 variant="outline"
                             >
-                                Working Example
-                            </Button>
-                        </a>
-                    </Link>
-                    <Link href="/btc/totallyNOTworkingexample">
-                        <a rel="noreferer">
-                            <Button
-                                rightIcon={<ArrowForwardIcon />}
-                                colorScheme="teal"
-                                variant="outline"
-                            >
-                                Broken Example
+                                Documentation
                             </Button>
                         </a>
                     </Link>
