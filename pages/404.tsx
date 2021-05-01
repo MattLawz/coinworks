@@ -13,7 +13,7 @@ export default function error() {
     return (
         <>
             <Head>
-                <title>404 Error</title>
+                <title>404: Where Are You?</title>
                 <link rel="icon" href="/btc.svg" />
             </Head>
             <Center>
@@ -23,8 +23,8 @@ export default function error() {
                     <Spacer />
                     <Spacer />
                     <Spacer />
-                    <Heading>404 Error</Heading>
-                    <Heading>Seems Like You Are Lost...</Heading>
+                    <Heading>Hello, emptyness.</Heading>
+                    <Heading>Welcome to the void.</Heading>
                     <Link href="https://donatebtc.vercel.app">
                         <Button colorScheme="teal" variant="ghost">
                             Go Home
