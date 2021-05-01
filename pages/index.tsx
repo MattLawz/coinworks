@@ -42,7 +42,7 @@ export default function Home() {
                             </Button>
                         </a>
                     </Link>
-                    <Link href="/btc/3GvF36KrDFRCPunvZzCeaMVMJtkBcMjNJi">
+                    <Link href="/docs">
                         <a rel="noreferer">
                             <Button
                                 rightIcon={<ArrowForwardIcon />}
