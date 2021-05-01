@@ -37,13 +37,13 @@ export default function btc() {
             </Head>
             <Container />
             <Center>
-                <Stack spacing={8}>
+                <Stack spacing={5}>
                     <Heading>Donate Bitcoin To</Heading>
                     <Code>{pid}</Code>
                     {valid ? null : (
                         <Alert status="error">
                             <AlertIcon />
-                            <AlertTitle mr={7}>
+                            <AlertTitle mr={5}>
                                 This address might be invalid.
                             </AlertTitle>
                         </Alert>
