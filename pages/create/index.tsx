@@ -30,7 +30,7 @@ export default class Create extends React.Component<CreateProps, CreateState> {
         } else {
             this.setState({
                 output:
-                    "https://donatebtc.vercel.app/btc/" + element.target.value,
+                    "https://coinworks.club/btc/" + element.target.value,
             });
         }
     }
