@@ -96,10 +96,10 @@ export default function Docs() {
                             <ListItem>Then, follow the format below:</ListItem>
                         </List>
                     </List>
-                    <Code>https://donatebtc.vercel.app/btc/yourbtcaddress</Code>
+                    <Code>https://coinworks.club/btc/yourbtcaddress</Code>
                     {
                         // @ts-ignore
-                        <Copy btc="https://coinbase.club/btc/yourbtcaddress" />
+                        <Copy btc="https://coinworks.club/btc/yourbtcaddress" />
                     }
                     <Text>
                         After you have done that, just share your link around
