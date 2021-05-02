@@ -1,4 +1,4 @@
-# Custom Bitcoin Donation Pages
+# Coinworks
 
 There is no registration or logins, it is meant to be easy, fast, and loaded with features.
 
