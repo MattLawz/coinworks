@@ -66,7 +66,7 @@ export default function Docs() {
                         <ListItem>
                             <Link
                                 color="lightblue"
-                                href="https://github.com/MattLawz/bitcoin-donate"
+                                href="https://github.com/MattLawz/coinworks"
                             >
                                 Open-source{" "}
                             </Link>
@@ -99,7 +99,7 @@ export default function Docs() {
                     <Code>https://donatebtc.vercel.app/btc/yourbtcaddress</Code>
                     {
                         // @ts-ignore
-                        <Copy btc="https://donatebtc.vercel.app/btc/yourbtcaddress" />
+                        <Copy btc="https://coinbase.club/btc/yourbtcaddress" />
                     }
                     <Text>
                         After you have done that, just share your link around
