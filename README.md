@@ -28,7 +28,7 @@ There is no registration or logins, it is meant to be easy, fast, and loaded wit
 
 It's very simple and fast.
 
-Generate your link [here](https://donatebtc.vercel.app/create).
+Generate your link [here](https://coinworks.club/create).
 
 **Alternative Method**:
 
@@ -37,6 +37,10 @@ Firstly, receive your Bitcoin Address
 Then, follow the format below:
 
 ```
+https://coinworks.club/btc/yourbtcaddress
+
+or
+
 https://donatebtc.vercel.app/btc/yourbitcoinaddress
 ```
 
