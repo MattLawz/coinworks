@@ -5,6 +5,7 @@ import styled from "@emotion/styled";
 import { ContainerProps } from "../interfaces";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import GitHubIcon from "../components/GitHubIcon";
+import DiscordIcon from "../components/DiscordIcon";
 
 const Container = ({ children }: ContainerProps) => {
     const { colorMode } = useColorMode();
@@ -86,6 +87,8 @@ const Container = ({ children }: ContainerProps) => {
                         <DarkModeSwitch />
                              
                         <GitHubIcon />
+                             
+                        <DiscordIcon />
                     </p>
                 </div>
             </StickyNav>
