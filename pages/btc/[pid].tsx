@@ -42,7 +42,6 @@ export default function btc() {
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
                 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
-                <script async data-api="/_hive" src="/bee.js"></script>
             </Head>
             <Container />
             <Center>
