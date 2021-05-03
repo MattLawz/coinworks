@@ -1,6 +1,6 @@
 # Coinworks
 
-There is no registration or logins, it is meant to be easy, fast, and loaded with features.
+No registrations or logins. Easy, fast, and loaded with features.
 
 ---
 
@@ -17,9 +17,7 @@ There is no registration or logins, it is meant to be easy, fast, and loaded wit
 
 ---
 
-### How Do I Use Bitcoin Donation Pages?
-
-It's very simple and fast.
+### How do I use Coinworks?
 
 Generate your link [here](https://coinworks.club/create).
 
@@ -37,7 +35,7 @@ or
 https://donatebtc.vercel.app/btc/yourbitcoinaddress
 ```
 
-Boom! You now have your own page!
+You now have your own page!
 
 ### Privacy Policy
 
