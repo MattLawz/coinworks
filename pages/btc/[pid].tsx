@@ -24,16 +24,24 @@ export default function btc() {
     return (
         <>
             <Head>
-                <title>Donate BTC To {pid}</title>
+            <title>Coinworks</title>
                 <link rel="icon" href="/btc.svg" />
                 <meta name="og:type" content="website" />
-                <meta name="description" content={"Donate BTC To" + pid} />
+                <meta
+                    name="description"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                />
                 <meta
                     name="keywords"
-                    content="donate bitcoin, coinbase, donation"
+                    content="coinworks, donate bitcoin, coinbase, donation"
                 />
-                <meta name="og:description" content={"Donate BTC To" + pid} />
+                <meta
+                    name="og:description"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                />
                 <meta name="og:image" content="/btc.svg" />
+                <meta name="theme-color" content="#f2a900" />
+                <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
             </Head>
             <Container />
             <Center>

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Donate BTC takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
+Coinworks takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
 
 
 ## Collection of Routine Information
@@ -18,7 +18,7 @@ We do not advertise any service/product on our website, do not use any monetizat
 
 ## Links to Third Party Websites
 
-Donate BTC has included links on this website for your use and reference. Donate BTC is not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
+Coinworks has included links on this website for your use and reference. Coinworks is not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
 
 
 ## Security

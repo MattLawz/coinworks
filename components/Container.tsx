@@ -3,7 +3,6 @@ import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
 import Link from "next/link";
 import styled from "@emotion/styled";
 import { ContainerProps } from "../interfaces";
-
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import GitHubIcon from "../components/GitHubIcon";
 

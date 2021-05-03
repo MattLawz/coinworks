@@ -15,6 +15,7 @@ export default function error() {
             <Head>
                 <title>404: Where Are You?</title>
                 <link rel="icon" href="/btc.svg" />
+                <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
             </Head>
             <Center>
                 <Stack spacing={8}>
@@ -24,7 +25,7 @@ export default function error() {
                     <Spacer />
                     <Spacer />
                     <Heading>Welcome to the void.</Heading>
-                    <Link href="https://donatebtc.vercel.app">
+                    <Link href="https://coinworks.club">
                         <Button colorScheme="teal" variant="ghost">
                             Go Home
                         </Button>

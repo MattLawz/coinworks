@@ -3,6 +3,7 @@ import Container from "../../components/Container";
 import React from "react";
 import { CreateProps, CreateState } from "../../interfaces";
 import copy from "copy-to-clipboard";
+import Head from "next/head"
 
 export default class Create extends React.Component<CreateProps, CreateState> {
     constructor(props: CreateProps) {
@@ -38,6 +39,26 @@ export default class Create extends React.Component<CreateProps, CreateState> {
     render() {
         return (
             <>
+            <Head>
+            <title>Coinworks</title>
+                <link rel="icon" href="/btc.svg" />
+                <meta name="og:type" content="website" />
+                <meta
+                    name="description"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                />
+                <meta
+                    name="keywords"
+                    content="coinworks, donate bitcoin, coinbase, donation"
+                />
+                <meta
+                    name="og:description"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                />
+                <meta name="og:image" content="/btc.svg" />
+                <meta name="theme-color" content="#f2a900" />
+                <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
+            </Head>
                 <Container />
                 <Center>
                     <Stack spacing={8}>

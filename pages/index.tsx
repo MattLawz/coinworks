@@ -8,28 +8,29 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Donate BTC</title>
+                <title>Coinworks</title>
                 <link rel="icon" href="/btc.svg" />
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="Custom Bitcoin Donation Page"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta
                     name="keywords"
-                    content="donate bitcoin, coinbase, donation"
+                    content="coinworks, donate bitcoin, coinbase, donation"
                 />
                 <meta
                     name="og:description"
-                    content="Custom Bitcoin Donation Page"
+                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
+                <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
             </Head>
             <Container />
             <Center>
                 <Stack spacing={8}>
-                    <Heading>Custom Bitcoin Donation Pages</Heading>
+                    <Heading>Coinworks</Heading>
                     <Text>No registrations. Easy. Fast.</Text>
                     <Link href="/create">
                         <a>
