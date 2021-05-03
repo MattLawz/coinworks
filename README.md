@@ -6,21 +6,14 @@ There is no registration or logins, it is meant to be easy, fast, and loaded wit
 
 ### Features
 
--   There is no registration or logins, it is meant to be easy and fast
-
--   A QR code is automatically generated for that Bitcoin Address
-
+-   No registration or logins, you just need a link
+-   A QR code is automatically generated for that Bitcoin address
 -   A BTC address is validated to make sure your BTC isn't wasted
-
 -   Easy copy to clipboard button
-
 -   A Blockchain Explorer link is available for you if you click the QR code
-
--   No Advertisements period
-
+-   No advertisements
 -   Fast and up 24/7
-
--   Open Source
+-   Open source, of course
 
 ---
 
