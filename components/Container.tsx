@@ -80,6 +80,16 @@ const Container = ({ children }: ContainerProps) => {
                             Why Us
                         </Button>
                     </Link>
+                    <Link href="https://app.splitbee.io/public/coinworks.club" passHref>
+                        <Button
+                            as="a"
+                            variant="ghost"
+                            p={[1, 2, 4]}
+                            _hover={{ backgroundColor: navHoverBg[colorMode] }}
+                        >
+                            Statistics
+                        </Button>
+                    </Link>
                 </Box>
                 <div>
                     <p>

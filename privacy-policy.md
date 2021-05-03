@@ -5,7 +5,7 @@ Coinworks takes your privacy seriously. To better protect your privacy we provid
 
 ## Collection of Routine Information
 
-This website track basic information about their visitors. This information includes, but is not limited to, browser information, device information, browser speed, and the speed of the page. All of this is done very securely as we respect your privacy and strike to collect very minimum data.
+This website track basic information about their visitors. This information includes, but is not limited to, browser information, device information, browser speed, and the speed of the page. All of this is done very securely as we respect your privacy and strike to collect very minimum data. The analytic services we use are NextJS Analytics, Cloudflare Analytics, and Splitbee for public statistics.
 
 ## Cookies
 
