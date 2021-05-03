@@ -16,7 +16,7 @@ export default function error() {
                 <title>404: Where Are You?</title>
                 <link rel="icon" href="/btc.svg" />
                 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
-                <script async src="https://cdn.splitbee.io/sb.js"></script>
+                <script async data-api="/_hive" src="/bee.js"></script>
             </Head>
             <Center>
                 <Stack spacing={8}>
