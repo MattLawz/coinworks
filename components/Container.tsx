@@ -81,6 +81,16 @@ const Container = ({ children }: ContainerProps) => {
                             Why Us
                         </Button>
                     </Link>
+                    <Link href="https://forms.gle/pfCo7dc7XfygpirU6" passHref>
+                        <Button
+                            as="a"
+                            variant="ghost"
+                            p={[1, 2, 4]}
+                            _hover={{ backgroundColor: navHoverBg[colorMode] }}
+                        >
+                            Support
+                        </Button>
+                    </Link>
                 </Box>
                 <div>
                     <p>
