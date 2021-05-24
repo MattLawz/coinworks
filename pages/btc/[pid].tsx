@@ -29,7 +29,7 @@ export default function btc() {
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta
                     name="keywords"
@@ -37,7 +37,7 @@ export default function btc() {
                 />
                 <meta
                     name="og:description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
@@ -79,7 +79,7 @@ export default function btc() {
                                         boxSize="150px"
                                         objectFit="cover"
                                         src={
-                                            "https://apimon.de/qr/L/bitcoin%3A" +
+                                            "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bitcoin:" +
                                             pid
                                         }
                                         alt="QRCode"

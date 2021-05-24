@@ -13,7 +13,7 @@ export default function Home() {
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta
                     name="keywords"
@@ -21,7 +21,7 @@ export default function Home() {
                 />
                 <meta
                     name="og:description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
@@ -32,17 +32,6 @@ export default function Home() {
                 <Stack spacing={8}>
                     <Heading>Coinworks</Heading>
                     <Text>No registrations. Easy. Fast.</Text>
-                    <Link href="/create">
-                        <a>
-                            <Button
-                                rightIcon={<ArrowForwardIcon />}
-                                colorScheme="teal"
-                                variant="outline"
-                            >
-                                Get Started
-                            </Button>
-                        </a>
-                    </Link>
                     <Link href="/docs">
                         <a rel="noreferer">
                             <Button

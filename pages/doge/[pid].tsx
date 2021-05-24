@@ -16,7 +16,7 @@ import Container from "../../components/Container";
 import Copy from "../../components/Copy";
 import cryptaddress from "cryptaddress-validator";
 
-export default function btc() {
+export default function doge() {
     const router = useRouter();
     const { pid } = router.query;
     const valid = cryptaddress("doge").test(pid);
@@ -25,11 +25,11 @@ export default function btc() {
         <>
             <Head>
                 <title>Coinworks</title>
-                <link rel="icon" href="/btc.svg" />
+                <link rel="icon" href="/doge.svg" />
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta
                     name="keywords"
@@ -37,9 +37,9 @@ export default function btc() {
                 />
                 <meta
                     name="og:description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
-                <meta name="og:image" content="/btc.svg" />
+                <meta name="og:image" content="/doge.svg" />
                 <meta name="theme-color" content="#f2a900" />
                 <script
                     defer
@@ -75,7 +75,7 @@ export default function btc() {
                                         boxSize="150px"
                                         objectFit="cover"
                                         src={
-                                            "https://apimon.de/qr/L/dogecoin%3A" +
+                                            "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=dogecoin:" +
                                             pid
                                         }
                                         alt="QRCode"

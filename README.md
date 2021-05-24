@@ -51,7 +51,7 @@ Please see [this file](privacy-policy.md).
 
 [Chakra-UI](https://chakra-ui.com/)
 
-[Apimon](https://apimon.de/http-apis#qr)
+[QRServer](https://qrserver.com)
 
 [Blockchain Explorer](https://www.blockchain.com/explorer)
 

@@ -4,16 +4,14 @@ import {
     Stack,
     Center,
     Text,
-    List,
     ListItem,
     UnorderedList,
-    Link,
-    Code,
+    Button
 } from "@chakra-ui/react";
 import Container from "../../components/Container";
-import Copy from "../../components/Copy";
+import Link from "next/link"
 
-export default function Docs() {
+export default function DocsIndex() {
     return (
         <>
             <Head>
@@ -22,7 +20,7 @@ export default function Docs() {
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta
                     name="keywords"
@@ -30,7 +28,7 @@ export default function Docs() {
                 />
                 <meta
                     name="og:description"
-                    content="A website that allows you to make your own custom Bitcoin donation link! No login or registration needed, comes with many cool features."
+                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
                 />
                 <meta name="og:image" content="/btc.svg" />
                 <meta name="theme-color" content="#f2a900" />
@@ -51,10 +49,10 @@ export default function Docs() {
                         </ListItem>
                         <ListItem>
                             A QR code is automatically generated for that
-                            Bitcoin Address
+                            crypto Address
                         </ListItem>
                         <ListItem>
-                            A BTC address is validated to make sure your BTC
+                            The crypto address is validated to make sure your BTC
                             isn't wasted
                         </ListItem>
                         <ListItem>Easy copy to clipboard button</ListItem>
@@ -65,47 +63,68 @@ export default function Docs() {
                         <ListItem>No Advertisements period</ListItem>
                         <ListItem>Fast and up 24/7</ListItem>
                         <ListItem>
-                            <Link
-                                color="lightblue"
-                                href="https://github.com/MattLawz/coinworks"
-                            >
-                                Open-source{" "}
+                            <Link href="https://github.com/MattLawz/coinworks">
+                            <a target="_blank">
+                                <Text as="i" color="blue.600">
+                                Open-Source
+                                </Text>
+                                {" "}
+                                </a>
                             </Link>
                         </ListItem>
                     </UnorderedList>
 
                     <Text fontSize="4xl" id="help">
-                        How to use?
+                        Link Generator
                     </Text>
-                    <List>
-                        <ListItem>
-                            Use our{" "}
-                            <Link color="lightblue" href="/create">
-                                link generator
-                            </Link>
-                            .
-                            <br />
-                            <br />
-                        </ListItem>
-                        <Text fontSize="3xl" id="help">
-                            Alternatively:
-                        </Text>
-                        <List>
-                            <ListItem>
-                                Firstly, get your Bitcoin address.
-                            </ListItem>
-                            <ListItem>Then, follow the format below:</ListItem>
-                        </List>
-                    </List>
-                    <Code>https://coinworks.club/btc/yourbtcaddress</Code>
-                    {
-                        // @ts-ignore
-                        <Copy btc="https://coinworks.club/btc/yourbtcaddress" />
-                    }
-                    <Text>
-                        After you have done that, just share your link around
-                        and then you are done!
-                    </Text>
+
+                    <Link href="https://coinworks.club/docs/btc">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Bitcoin Link
+                    </Button>
+                    </a>
+                    </Link>
+
+                    <Link href="https://coinworks.club/docs/bch">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Bitcoin Cash Link
+                    </Button>
+                    </a>
+                    </Link>
+
+                    <Link href="https://coinworks.club/docs/eth">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Ethereum Link
+                    </Button>
+                    </a>
+                    </Link>
+
+                    <Link href="https://coinworks.club/docs/ltc">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Litecoin Link
+                    </Button>
+                    </a>
+                    </Link>
+
+                    <Link href="https://coinworks.club/docs/xmr">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Monero Link
+                    </Button>
+                    </a>
+                    </Link>
+
+                    <Link href="https://coinworks.club/docs/doge">
+                    <a target="_blank">
+                    <Button colorScheme="teal" variant="outline">
+                     Generate Dogecoin Link
+                    </Button>
+                    </a>
+                    </Link>
                 </Stack>
             </Center>
         </>
