@@ -19,23 +19,7 @@ No registrations or logins. Easy, fast, and loaded with features.
 
 ### How do I use Coinworks?
 
-Generate your link [here](https://coinworks.club/create).
-
-**Alternative Method**:
-
-Firstly, receive your Bitcoin Address
-
-Then, follow the format below:
-
-```
-https://coinworks.club/btc/yourbtcaddress
-
-or
-
-https://donatebtc.vercel.app/btc/yourbitcoinaddress
-```
-
-You now have your own page!
+Generate your link [here](https://coinworks.club/docs#help).
 
 ### Privacy Policy
 
