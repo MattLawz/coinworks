@@ -39,4 +39,7 @@ Please see [this file](privacy-policy.md).
 
 [Blockchain Explorer](https://www.blockchain.com/explorer)
 
+[Blockchair Explorer](https://blockchair.com/)
+
+[Dogechain Explorer](https://dogechain.info/)
 ---
