@@ -2,6 +2,6 @@
 
 If you find a security vulnrability, please contact us below:
 
-Discord: `Matt_Lawz#2170`
+Discord: `mattdeere#6907`
 
 Email: `matt@mattlawz.dev`
