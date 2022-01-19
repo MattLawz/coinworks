@@ -3,7 +3,7 @@
 To get started, just clone the repository and run yarn:
 
 `
-git clone https://github.com/MattLawz/bitcoin-donate.git
+git clone https://github.com/MattLawz/coinworks.git
 `
 
 `
@@ -13,6 +13,8 @@ yarn
 `
 yarn dev
 `
+
+*Don't forget to CD into the folder before running `yarn`*
 
 **Note: You must use [Yarn](https://yarnpkg.com/), if you don't use Yarn then your packages will not work correctly and you will have a conflicting issue between Yarn and NPM.**
 
