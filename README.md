@@ -3,7 +3,7 @@
 No registrations or logins. Easy, fast, and loaded with features.
 
 ---
-### Links + Backup Procedure
+### Links
 
 [Main Link](https://coinworks.vercel.app/) (coinworks.vercel.app)
 
