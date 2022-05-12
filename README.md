@@ -5,20 +5,7 @@ No registrations or logins. Easy, fast, and loaded with features.
 ---
 ### Links + Backup Procedure
 
-[Main Link](http://coinworks.club/) (coinworks.club)
-
-[Backup Link](https://donatebtc.vercel.app/) (donatebtc.vercel.app)
-
-#### Backup Information:
-
-If the main link is down for some reason and we have not updated our codebase links for directions follow the steps below to get your link temporairly working:
-
-Current Link:
-```https://coinworks.club/btc/btcaddresshere``` --> ```https://donatebtc.vercel.app/btc/btcaddresshere```
-
-Simply replace the coinworks domain with our backup vercel domain, and this will get it back up for you. 
-
-(Our domain is set to expire soon so we are taking early precautions)
+[Main Link](https://coinworks.vercel.app/) (coinworks.vercel.app)
 
 ---
 

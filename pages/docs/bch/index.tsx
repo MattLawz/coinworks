@@ -4,7 +4,7 @@ import React from "react";
 import { CreateProps, CreateState } from "../../../interfaces";
 import copy from "copy-to-clipboard";
 import Head from "next/head"
-
+import Link from "next/link";
 export default class CreateBCH extends React.Component<CreateProps, CreateState> {
     constructor(props: CreateProps) {
         super(props);
@@ -31,7 +31,7 @@ export default class CreateBCH extends React.Component<CreateProps, CreateState>
         } else {
             this.setState({
                 output:
-                    "https://coinworks.club/bch/" + element.target.value,
+                    "https://coinworks.vercel.app/bch/" + element.target.value,
             });
         }
     }
@@ -67,17 +67,33 @@ export default class CreateBCH extends React.Component<CreateProps, CreateState>
                             placeholder="Bitcoin Cash Address"
                             onChange={this.handleChange}
                         />
+                         <Link href="./" passHref>
+                                <Button
+                                    colorScheme="blue"
+                                    variant="ghost"
+                                >
+                                    Go Back
+                                    </Button>
+                                    </Link>
                         {this.state.output ? (
                             <>
                                 <Heading>Your link:</Heading>
                                 <code>{this.state.output}</code>
                                 <Button
-                                    colorScheme="teal"
+                                    colorScheme="blue"
                                     variant="ghost"
                                     onClick={this.run}
                                 >
                                     {this.state.text}
                                 </Button>
+                                <Link href={this.state.output} passHref>
+                                <Button
+                                    colorScheme="blue"
+                                    variant="ghost"
+                                >
+                                    Open Generated Link
+                                    </Button>
+                                    </Link>
                             </>
                         ) : null}
                     </Stack>

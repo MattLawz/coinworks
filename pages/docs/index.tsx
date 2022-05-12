@@ -78,49 +78,49 @@ export default function DocsIndex() {
                         Link Generator
                     </Text>
 
-                    <Link href="https://coinworks.club/docs/btc">
+                    <Link href="./docs/btc">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Bitcoin Link
                     </Button>
                     </a>
                     </Link>
 
-                    <Link href="https://coinworks.club/docs/bch">
+                    <Link href="./docs/bch">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Bitcoin Cash Link
                     </Button>
                     </a>
                     </Link>
 
-                    <Link href="https://coinworks.club/docs/eth">
+                    <Link href="./docs/eth">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Ethereum Link
                     </Button>
                     </a>
                     </Link>
 
-                    <Link href="https://coinworks.club/docs/ltc">
+                    <Link href="./docs/ltc">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Litecoin Link
                     </Button>
                     </a>
                     </Link>
 
-                    <Link href="https://coinworks.club/docs/xmr">
+                    <Link href="./docs/xmr">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Monero Link
                     </Button>
                     </a>
                     </Link>
 
-                    <Link href="https://coinworks.club/docs/doge">
+                    <Link href="./docs/doge">
                     <a target="_blank">
-                    <Button colorScheme="teal" variant="outline">
+                    <Button colorScheme="blue">
                      Generate Dogecoin Link
                     </Button>
                     </a>

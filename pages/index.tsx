@@ -36,8 +36,7 @@ export default function Home() {
                         <a rel="noreferer">
                             <Button
                                 rightIcon={<ArrowForwardIcon />}
-                                colorScheme="teal"
-                                variant="outline"
+                                colorScheme="blue"
                             >
                                 Documentation
                             </Button>

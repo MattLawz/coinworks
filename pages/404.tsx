@@ -25,8 +25,8 @@ export default function error() {
                     <Spacer />
                     <Spacer />
                     <Heading>Welcome to the void.</Heading>
-                    <Link href="https://coinworks.club">
-                        <Button colorScheme="teal" variant="ghost">
+                    <Link href="/">
+                        <Button colorScheme="blue">
                             Go Home
                         </Button>
                     </Link>

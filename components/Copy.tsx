@@ -22,7 +22,7 @@ export default class Copy extends React.Component<CopyProps, CopyState> {
 
     render() {
         return (
-            <Button colorScheme="teal" variant="ghost" onClick={this.run}>
+            <Button colorScheme="blue" variant="ghost" onClick={this.run}>
                 {this.state.text}
             </Button>
         );

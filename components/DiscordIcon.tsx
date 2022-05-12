@@ -1,12 +1,26 @@
-import { IconButton } from "@chakra-ui/react";
+import { IconButton, useToast } from "@chakra-ui/react";
 import { FaDiscord } from "react-icons/fa";
-import Link from "next/link";
 
 const DiscordIcon = () => {
+    const toast = useToast()
+
+    function copy() {
+        navigator.clipboard.writeText('mattdeere#6907');
+    }
+
+    function success() {
+        toast({
+            title: 'Copied Discord Tag to Clipboard',
+            description: "Want to talk to me? Add me on Discord!",
+            status: 'success',
+            duration: 3000,
+            isClosable: true,
+            position: 'bottom-left',
+          })
+    }
+
     return (
-        <Link href="https://discord.gg/h2NcyEt8NJ">
-            <IconButton aria-label="Discord" icon={<FaDiscord />} />
-        </Link>
+            <IconButton aria-label="Discord" icon={<FaDiscord />} onClick={() => {copy();success();}} />
     );
 };
 
